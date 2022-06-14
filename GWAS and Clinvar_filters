@@ -1,0 +1,6 @@
+import pandas as pd 
+import numpy as np 
+
+dataset = pd.read_excel/csv("Files from clinavr , desgenet , GWAS")
+dataset = dataset.dropna()
+occular=dataset.loc[dataset['Column contioning pheontypenames'].str.contains ("myopia|metropia|macular|proptosis|glaucoma|eye|optahlmo|optic|cataracts|blind|retina|cornea|ciliary|conjunctivitis|vision")]
